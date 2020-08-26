@@ -13,8 +13,9 @@ header {
     display: flex;
 }
 
-li {
+li, ul{
     list-style-type: none;
+    margin-top: 0;
 }
 
 h2 {
@@ -50,7 +51,7 @@ h2 {
     border-radius: 10px;
     margin-top: 20px;
     border: 1px solid black;
-    width: 80px;
+    width: 150px;
     height: 50px;
     text-align: center;
 }
@@ -62,12 +63,16 @@ h2 {
 
 header li[rel=logo] {
     border-radius: 0;
-    width: 110px;
-    height: 70px;
+    align-items: baseline;
+    width: 200px;
 }
 
 .main_pics {
     height: 600px;
+}
+
+.search_var {
+  width: 200px !important;
 }
 
 .main_pics article {
@@ -225,4 +230,51 @@ header li[rel=logo] {
 
 .red-container {
    justify-content: space-around;
+}
+
+.img2 {
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  height: 500px;
+}
+
+footer {
+  padding-top: 80px;
+  height: 350px;
+}
+
+
+.center {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.footer_text {
+  list-style-type: disc;
+  margin-right: 30px;
+}
+
+.last_footer {
+  padding-top: 40px;
+}
+
+.last_footer li {
+  margin-right: 10px;
+}
+
+.p_footer {
+  padding-top: 40px;
+  padding: 10px 200px;
+  margin-bottom: 0;
+}
+
+.img_bird {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: -150px;
+  margin-left: 50px;
 }
