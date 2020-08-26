@@ -154,3 +154,8 @@ header li[rel=logo] {
   margin-bottom: 50px;
   transform: rotate(75deg);
 }
+
+.articles {
+  justify-content: space-around;
+  width: 100%;
+}
