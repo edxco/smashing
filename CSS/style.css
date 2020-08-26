@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -15,6 +15,10 @@ header {
 
 li {
     list-style-type: none;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 .grey1 {
@@ -84,6 +88,15 @@ header li[rel=logo] {
     width: 100px;
     height: 100px;
     margin-right: 20px;
+    margin-bottom: 30px;
+    transform: rotate(75deg);
+    float: left;
+}
+
+.pic2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
     transform: rotate(75deg);
     float: left;
 }
@@ -125,6 +138,13 @@ header li[rel=logo] {
   padding-top: 20px;
 }
 
+.red_box {
+    text-align: left;
+    height: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
 .click {
   border-radius: 10px;
   height: 40px;
@@ -158,4 +178,51 @@ header li[rel=logo] {
 .articles {
   justify-content: space-around;
   width: 100%;
+  margin: 30px 0;
+}
+
+.p-10 {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.bold-100 {
+    font-weight: 100;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.rectangle{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px 0 0 10px;
+    margin-top: 25px;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.red-content{
+    width: 400px;
+    border: 1px solid #333;
+    height: 450px;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.red-container {
+   justify-content: space-around;
 }
