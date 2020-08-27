@@ -54,7 +54,7 @@ h2 {
 }
 
 .w-600 {
-  width: 600px
+  width: 600px;
 }
 
 .header li,
@@ -284,4 +284,8 @@ footer {
   width: 100px;
   margin-top: -150px;
   margin-left: 50px;
+}
+
+.newclass {
+  width: 90%;
 }
