@@ -1,74 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
-html{
-    font-family: 'Roboto', sans-serif;
+
+html {
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background-color: #A9A9A9;
-    height: 100px;
-    width: 100%;
+  background-color: #a9a9a9;
+  height: 100px;
+  width: 100%;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
-li, ul{
-    list-style-type: none;
-    margin-top: 0;
+li,
+ul {
+  list-style-type: none;
+  margin-top: 0;
 }
 
 h2 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .grey1 {
-    background-color: #222;
+  background-color: #222;
 }
 
 .grey2 {
-    background-color: #444;
+  background-color: #444;
 }
 
 .grey3 {
-    background-color: #666;
+  background-color: #666;
 }
 
 .grey4 {
-    background-color: #888;
+  background-color: #888;
 }
 
 .grey5 {
-    background-color: #aaa;
+  background-color: #aaa;
 }
 
 .header {
-    padding-left: 0;
-    justify-content: space-around;
+  padding-left: 0;
+  justify-content: space-around;
 }
 
 .header li {
-    border-radius: 10px;
-    margin-top: 20px;
-    border: 1px solid black;
-    width: 150px;
-    height: 50px;
-    text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
+  text-align: center;
 }
 
 .header li span {
-    position: relative;
-    top: 55px;
+  position: relative;
+  top: 55px;
 }
 
 header li[rel=logo] {
-    border-radius: 0;
-    align-items: baseline;
-    width: 200px;
+  border-radius: 0;
+  align-items: baseline;
+  width: 200px;
 }
 
 .main_pics {
-    height: 600px;
+  height: 100%;
 }
 
 .search_var {
@@ -76,50 +78,51 @@ header li[rel=logo] {
 }
 
 .main_pics article {
-    width: 50%;
-    height: 100%;
+  width: 50%;
+  height: 100%;
 }
 
 .not_pic {
-    margin: 0 auto;
-    width: 90%;
-    height: 200px;
-    padding-top: 30px;
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  padding-top: 30px;
 }
 
 .pic {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    transform: rotate(75deg);
-    float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  transform: rotate(75deg);
+  float: left;
 }
 
 .pic2 {
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-    transform: rotate(75deg);
-    float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  transform: rotate(75deg);
+  float: left;
 }
 
+/* Chane */
 .pic_text h1 {
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .text_b {
-    margin-top: 100px;
-    border-radius: 5px;
+  margin-top: 100px;
+  border-radius: 5px;
 }
 
 .section {
-    justify-content: space-between;
-    width: 100%;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .colums {
@@ -144,11 +147,11 @@ header li[rel=logo] {
 }
 
 .red_box {
-    text-align: left;
-    height: 600px;
-    padding-top: 20px;
-    padding-left: 20px;
-  }
+  text-align: left;
+  height: 600px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
 .click {
   border-radius: 10px;
@@ -187,49 +190,53 @@ header li[rel=logo] {
 }
 
 .p-10 {
-    padding: 0 10px;
-    margin: 0 10px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.m-s-10 {
+  margin: 20px 0;
 }
 
 .bold-100 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .bold-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .bold-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.rectangle{
-    width: 250px;
-    height: 30px;
-    border-radius: 10px;
-    padding: 10px 0 0 10px;
-    margin-top: 25px;
+.rectangle {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px 0 0 10px;
+  margin-top: 25px;
 }
 
-.w80{
-    width: 80%;
+.w80 {
+  width: 80%;
 }
 
-.w20{
-    width: 20%;
+.w20 {
+  width: 20%;
 }
 
-.red-content{
-    width: 400px;
-    border: 1px solid #333;
-    height: 450px;
-    border-radius: 10px;
-    margin: 15px 0;
-    padding: 15px;
+.red-content {
+  width: 400px;
+  border: 1px solid #333;
+  height: 450px;
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 15px;
 }
 
 .red-container {
-   justify-content: space-around;
+  justify-content: space-around;
 }
 
 .img2 {
@@ -246,9 +253,8 @@ footer {
   height: 350px;
 }
 
-
 .center {
-  margin: 0px auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -266,7 +272,6 @@ footer {
 }
 
 .p_footer {
-  padding-top: 40px;
   padding: 10px 200px;
   margin-bottom: 0;
 }
