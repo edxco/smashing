@@ -154,6 +154,7 @@ header li[rel=search_var] {
 .posts article {
   height: 400px;
   width: 34%;
+  padding: 20px;
 }
 
 .blue_box {
