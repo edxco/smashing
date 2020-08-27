@@ -73,7 +73,6 @@ h2 {
 
 .header li {
   margin-top: 20px;
-  border: 1px solid black;
   width: 150px;
   height: 50px;
 }
@@ -90,7 +89,7 @@ header li[rel=logo] {
 }
 
 header li[rel=search_var] {
-  width: 200px;
+  width: 300px;
 }
 
 .main_pics {
@@ -109,10 +108,14 @@ header li[rel=search_var] {
   padding-top: 30px;
 }
 
+.not_pic p {
+  font-size: 28px;
+  margin-right: 40px;;
+}
+
 .pic {
   width: 100px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  margin: 0 20px 30px 40px;
   transform: rotate(75deg);
   float: left;
 }
@@ -128,7 +131,7 @@ header li[rel=search_var] {
 /* Chane */
 .pic_text h1 {
   position: absolute;
-  top: 20%;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -146,14 +149,11 @@ header li[rel=search_var] {
   flex-direction: column;
 }
 
-.posts {
-  padding-top: 50px;
-}
+
 
 .posts article {
   height: 400px;
-  margin-right: 10px;
-  width: 25%;
+  width: 34%;
 }
 
 .blue_box {
@@ -254,7 +254,7 @@ header li[rel=search_var] {
 
 footer {
   padding-top: 80px;
-  height: 350px;
+  height: 450px;
 }
 
 .center {
@@ -263,11 +263,19 @@ footer {
 
 .footer_text {
   list-style-type: disc;
-  margin-right: 30px;
+  margin: 5px 10px;
+}
+
+.footer-top {
+  margin-top: 40px;
+}
+
+.footer-bottom {
+  margin-bottom: 30px;
 }
 
 .last_footer {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .last_footer li {
