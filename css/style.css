@@ -53,20 +53,12 @@ h2 {
   height: 100px;
 }
 
-.w-600 {
-  width: 600px;
-}
-
 .header li,
 .pic_text h1,
 .blue_box,
 .rectangle,
 .center {
   text-align: center;
-}
-
-.p-b-10 {
-  margin-bottom: 20px;
 }
 
 /* Header */
@@ -76,7 +68,9 @@ h2 {
 }
 
 .header li {
+  border-radius: 10px;
   margin-top: 20px;
+  border: 1px solid black;
   width: 150px;
   height: 50px;
 }
@@ -87,16 +81,17 @@ h2 {
 }
 
 header li[rel=logo] {
+  border-radius: 0;
   align-items: baseline;
-  width: 200px;
-}
-
-header li[rel=search_var] {
   width: 200px;
 }
 
 .main_pics {
   height: 100%;
+}
+
+.search_var {
+  width: 200px !important;
 }
 
 .main_pics article {
@@ -124,6 +119,7 @@ header li[rel=search_var] {
   height: 200px;
   margin-left: 50px;
   transform: rotate(75deg);
+  float: left;
 }
 
 /* Chane */
@@ -137,10 +133,6 @@ header li[rel=search_var] {
 .text_b {
   margin-top: 100px;
   border-radius: 5px;
-}
-
-.text_b p {
-  font-size: 24px;
 }
 
 .section {
@@ -157,6 +149,7 @@ header li[rel=search_var] {
 
 .posts article {
   height: 400px;
+  border-radius: 10px;
   margin-right: 10px;
   width: 25%;
 }
@@ -174,6 +167,7 @@ header li[rel=search_var] {
 }
 
 .click {
+  border-radius: 10px;
   height: 40px;
   margin: 0 400px;
 }
@@ -185,6 +179,7 @@ header li[rel=search_var] {
 .img1 {
   height: 400px;
   margin: 0 300px;
+  border-radius: 10px;
 }
 
 .week {
@@ -217,10 +212,6 @@ header li[rel=search_var] {
   font-weight: 100;
 }
 
-.bold-500 {
-  font-weight: 500;
-}
-
 .bold-400 {
   font-weight: 400;
 }
@@ -232,6 +223,7 @@ header li[rel=search_var] {
 .rectangle {
   width: 250px;
   height: 30px;
+  border-radius: 10px;
   margin-top: 25px;
 }
 
@@ -244,9 +236,11 @@ header li[rel=search_var] {
 }
 
 .red-content {
-  width: 600px;
-  height: 350px;
-  margin: 15px 10px;
+  width: 400px;
+  border: 1px solid #333;
+  height: 450px;
+  border-radius: 10px;
+  margin: 15px 0;
   padding: 15px;
 }
 
@@ -256,8 +250,11 @@ header li[rel=search_var] {
 
 .img2 {
   justify-content: space-between;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 400px;
   padding: 20px;
-  height: 600px;
+  height: 500px;
 }
 
 footer {
@@ -292,8 +289,4 @@ footer {
   width: 100px;
   margin-top: -150px;
   margin-left: 50px;
-}
-
-.newclass {
-  width: 90%;
 }
