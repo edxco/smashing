@@ -14,6 +14,10 @@ header {
   display: flex;
 }
 
+.none {
+  display: none;
+}
+
 li,
 ul {
   list-style-type: none;
@@ -214,8 +218,8 @@ header li[rel=logo] {
   width: 250px;
   height: 30px;
   border-radius: 10px;
-  padding: 10px 0 0 10px;
   margin-top: 25px;
+  text-align: center;
 }
 
 .w80 {
