@@ -76,7 +76,7 @@ header li[rel=logo] {
 }
 
 .main_pics article {
-    width: 33.333%;
+    width: 50%;
     height: 100%;
 }
 
@@ -106,8 +106,10 @@ header li[rel=logo] {
 
 .pic_text h1 {
     text-align: center;
-    background-color: #404040;
-    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .text_b {
